@@ -32,7 +32,8 @@ Route::get('/callback', function(Request $request) {
         if (isset($content['memo'])) {
             if ($content['memo_type'] == 'text') {
                 // get order id from memo
-                $order_id = substr($content['memo'], 0, 7);
+                $order_id = substr($content['memo'], 8);
+                var_dump($order_id);die();
                 // go to find order in database
                 // $order = Order::find($order_id)
                 $order = $order_id;
