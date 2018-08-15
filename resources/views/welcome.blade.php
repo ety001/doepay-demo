@@ -20,6 +20,11 @@
         <div class="container" style="margin-top: 20px;">
             <div class="row">
                 <div class="col-md-12">
+                <div class="alert alert-warning" role="alert">
+                    This demo built on TEST NET. Please use the account of TEST NET to test.
+                </div>
+                </div>
+                <div class="col-md-12">
                     <p>Product List</p>
                 </div>
                 <div class="col-md-12">
